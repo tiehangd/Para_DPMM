@@ -20,7 +20,7 @@ On HPC command line:
 
 then follow guidelines printed in the program (an example):
 
-5. Please enter dataset path:  ./datasets/data_matrix_to_R_1.mat
+5. Please enter dataset path:  ./datasets/data_matrix_1_S_Set.mat
 
 6. Please enter number of processors:  16
 
