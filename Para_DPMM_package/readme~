@@ -1,0 +1,38 @@
+
+####################################################################
+
+Matlab Package of Para_DPMM model for single cell transcriptomic clustering introduced in paper "Parallelized Inference for Single Cell Transcriptomic Clustering with Split Merge Sampling on DPMM Model", Author: Tiehang Duan; Xiaohui Xie;
+
+The execution of this package is tested on HPC clusters with module gcc/6.1.0, gsl/2.3 and MATLAB/r2017b loaded; 
+
+
+Usage:
+
+On HPC command line:
+
+1. module load gcc/6.1.0
+
+2. module load gsl/2.3
+
+3. module load MATLAB/r2017b
+
+4. ./Para_DPMM
+
+then follow guidelines printed in the program (an example):
+
+5. Please enter dataset path:  ./datasets/data_matrix_to_R_1.mat
+
+6. Please enter number of processors:  16
+
+7. Please set the value of alpha:  1
+
+8. Please enter computing time limit (seconds):  40
+
+The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
+
+
+Note: This package utilizes multiple functions from the open sourced Dirichlet Process Mixtures package (http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang. 
+
+#####################################################################
+
+
