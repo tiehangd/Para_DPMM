@@ -42,7 +42,7 @@ clustering methods. Most of the methods are available in the form of R package,
 and in the "interface to comparison methods" folders, we provide interface programs (written in R)
 to use these datasets with the available R packages for comparison.
 
-Please feel free to use it for academic purposes. For business deployment, please contact the author.
+Please feel free to use it for academic purposes. For business deployment in genomic analysis, please contact the author.
 
 
 
