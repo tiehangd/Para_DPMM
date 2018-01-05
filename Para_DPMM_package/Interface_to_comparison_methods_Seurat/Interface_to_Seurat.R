@@ -1,6 +1,8 @@
 
 # Seurat is a very comprehensive analysis package with many additional analysis tools,
 # so the interface implementation is a little tricky compared to other methods.
+# The two datasets included in the seurat folder is used in the beginning of
+# this interface program to construct the proper data structures used in Seurat package.
 # please change three places when changing datasets, two input, one output.
 
 library(Seurat)
