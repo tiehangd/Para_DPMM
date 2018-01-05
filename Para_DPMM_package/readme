@@ -31,7 +31,7 @@ then follow guidelines printed in the program (an example):
 
 8. Please enter computing time limit (seconds):  40
 
-The training iteration and computation time log is saved in Para_DPMM_output.txt,
+The training iteration and computation time log is saved in Para_DPMM_output.txt, 
 the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result
 of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index,
 RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
@@ -42,14 +42,13 @@ clustering methods. Most of the methods are available in the form of R package,
 and in the "interface to comparison methods" folders, we provide interface programs (written in R)
 to use these datasets with the available R packages for comparison.
 
+Please feel free to use it for academic purposes. For business deployment, please contact the author.
 
 
 
 
 
-
-Note: This package utilizes multiple functions from the open sourced Dirichlet Process Mixtures package
-(http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang. 
+Note: This package utilizes multiple functions from the open sourced Dirichlet Process Mixtures package(http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang. 
 
 ###############################################################################################
 
