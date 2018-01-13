@@ -33,7 +33,7 @@ The training iteration and computation time log is saved in Para_DPMM_output.txt
 
 In the paper, we performed comparison with several current state of art single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
 
-Please feel free to use it for academic purposes. For business deployment in genomic analysis, please contact the author.
+Please feel free to use it for academic purposes.
 
 
 
