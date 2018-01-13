@@ -8,30 +8,42 @@ The execution of this package is tested on HPC clusters with module gcc/6.1.0, g
 
 Usage:
 
-On HPC command line:
+1. Data Preparation:
 
-1. module load gcc/6.1.0
-
-2. module load gsl/2.3
-
-3. module load MATLAB/r2017b
-
-4. ./Para_DPMM
-
-then follow guidelines printed in the program (an example):
-
-5. Please enter dataset path:  ./datasets/data_matrix_1_S_Set.mat
-
-6. Please enter number of processors:  16
-
-7. Please set the value of alpha:  1
-
-8. Please enter computing time limit (seconds):  40
-
-The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
+1.1 Download raw datasets from 
 
 
-In the paper, we performed comparison with several current state of art single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
+2. Package Usage:
+
+2.1 On HPC command line:
+
+      1> module load gcc/6.1.0
+
+      2> module load gsl/2.3
+
+      3> module load MATLAB/r2017b
+
+      4> ./Para_DPMM
+
+2.2 Follow guidelines printed in the program (an example):
+
+      1> Please enter dataset path:  ./datasets/data_matrix_1_S_Set.mat
+
+      2> Please enter number of processors:  16
+
+      3> Please set the value of alpha:  1
+
+      4> Please enter computing time limit (seconds):  40
+
+
+3. Result Files:
+
+      The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
+
+
+4. Comparison Methods:
+
+      In the paper, we performed comparison with several current state of art single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
 
 Please feel free to use it for academic purposes.
 
