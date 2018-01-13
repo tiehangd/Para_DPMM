@@ -1,5 +1,5 @@
 
-% The mat files are prepared with "data_preparation.m" from the datasets downloaded on 10X genomics website(https://support.10xgenomics.com/single-cell-gene-expression/datasets).  
+% The mat files are prepared with "data_preparation.m". The raw data are available on 10X genomics website(https://support.10xgenomics.com/single-cell-gene-expression/datasets).  
 % Please refer to comments in "data_preparation.m" to prepare your customized data mat files for the package.
 
 % "full_gene_trun_cell_trun_comb2_perm" stores the prepared UMI matrix,
