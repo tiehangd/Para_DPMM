@@ -13,39 +13,39 @@ Usage:
 
 1. Data Preparation:
 
-1.1 Download raw datasets from 10X genomics website (https://support.10xgenomics.com/single-cell-gene-expression/datasets) and store the files in the datasets folder;
+     1. Download raw datasets from 10X genomics website (https://support.10xgenomics.com/single-cell-gene-expression/datasets) and store the files in the datasets folder;
 
-1.2 Follow the comments in "data_preparation.m" to modify the file names based on the downloaded data files;
+     2. Follow the comments in "data_preparation.m" to modify the file names based on the downloaded data files;
 
-1.3 Follow the comments in "data_preparation.m" to set the number of cells (randomly selected) and top variable genes;
+     3. Follow the comments in "data_preparation.m" to set the number of cells (randomly selected) and top variable genes;
 
-1.4 Run "data_preparation.m";
+     4. Run "data_preparation.m";
 
-In the datasets folder, we included the mat files that are used in the paper's experiment part.
+     In the datasets folder, we included the mat files that are used in the paper's experiment part.
 
 
 
 2. Package Usage:
 
-2.1 On HPC command line:
+     1. On HPC command line:
 
-      1> module load gcc/6.1.0
+            1> module load gcc/6.1.0
 
-      2> module load gsl/2.3
+            2> module load gsl/2.3
 
-      3> module load MATLAB/r2017b
+            3> module load MATLAB/r2017b
 
-      4> ./Para_DPMM
+            4> ./Para_DPMM
 
-2.2 Follow guidelines printed in the program (an example):
+     2. Follow guidelines printed in the program (an example):
 
-      1> Please enter dataset path:  ./datasets/data_matrix_1_S_Set.mat
+            1> Please enter dataset path:  ./datasets/data_matrix_1_S_Set.mat
 
-      2> Please enter number of processors:  16
+            2> Please enter number of processors:  16
 
-      3> Please set the value of alpha:  1
+            3> Please set the value of alpha:  1
 
-      4> Please enter computing time limit (seconds):  40
+            4> Please enter computing time limit (seconds):  40
 
 
 
