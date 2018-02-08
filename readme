@@ -1,7 +1,7 @@
 
 #######################################################################################
 
-Matlab Package of Para_DPMM model for single cell transcriptomic clustering introduced in paper "Parallelized Inference for Single Cell Transcriptomic Clustering with Split Merge Sampling on DPMM Model", Author: Tiehang Duan; Xiaohui Xie;
+Matlab Package of Para_DPMM model for single cell transcriptomic clustering introduced in paper "Parallelized Inference for Single Cell Transcriptomic Clustering with Split Merge Sampling on DPMM Model", Author: Tiehang Duan; Jos\'e P. Pinto; Xiaohui Xie;
 
 The execution of this package is tested on HPC clusters with module gcc/6.1.0, gsl/2.3 and MATLAB/r2017b loaded; 
 
