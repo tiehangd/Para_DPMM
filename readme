@@ -55,7 +55,7 @@ In the datasets folder, we included the mat files that are used in the paper's e
 
 4. Comparison Methods:
 
-      In the paper, we performed comparison with several current state of art single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
+      In the paper, we performed comparison with several current widely used single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
 
 
 
