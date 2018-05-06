@@ -88,7 +88,7 @@ Steps:
 
 
 
-(3) Result Files:
+(3) Result:
 
       The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
 
