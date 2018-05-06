@@ -2,7 +2,7 @@
 #######################################################################################
 Source code and datasets of Para_DPMM model for single cell transcriptomic clustering to reproduce results in paper "Parallelized Inference for Single Cell Transcriptomic Clustering with Split Merge Sampling on DPMM Model", Author: Tiehang Duan; José P. Pinto; Xiaohui Xie;
 
-The execution of this package is tested on HPC clusters with module gcc/6.1.0, gsl/2.3 and MATLAB/r2017b loaded; 
+
 
 
 
@@ -23,7 +23,17 @@ In the datasets folder, we included the mat files that are used in the paper's e
 
 
 
-2. Package Usage:
+
+2. Usage Option: (1) Run Source Code
+
+
+
+
+
+
+Usage Option: (2) Run Compiled Package
+
+The execution of compile package is tested on HPC clusters with module gcc/6.1.0, gsl/2.3 and MATLAB/r2017b loaded; 
 
 2.1 On HPC command line:
 
