@@ -3,12 +3,6 @@
 Source code and datasets of Para_DPMM model for single cell transcriptomic clustering to reproduce results in paper "Parallelized Inference for Single Cell Transcriptomic Clustering with Split Merge Sampling on DPMM Model", Author: Tiehang Duan; José P. Pinto; Xiaohui Xie;
 
 
-
-
-
-Usage:
-
-
 1. Data Preparation:
 
 1.1 Download raw datasets from 10X genomics website (https://support.10xgenomics.com/single-cell-gene-expression/datasets) and store the files in the datasets folder;
@@ -105,7 +99,7 @@ Steps:
 
 
 
-Please feel free to use it for academic purposes.
+Please feel free to use it for academic purposes. 
 
 
 Note: The Para-DPMM project depend heavily on the open source Dirichlet Process Mixtures package(http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang.
