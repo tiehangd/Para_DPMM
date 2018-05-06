@@ -1,0 +1,27 @@
+
+
+The following two libraries is needed:
+1) GNU Scientific Library: http://www.gnu.org/software/gsl/
+2) Eigen library: http://eigen.tuxfamily.org/
+
+We run the code with Matlab2015a and gcc/4.8.4 (gcc/4.6.X and gcc/4.7.X should also work).
+
+Usage:
+
+(1) Install the packages mentioned above (for the Eigen library, you only need to place the unzipped files inside the "eigen" directory);
+
+(2) Start Matlab, enter the "main" directory in Matlab;
+
+(3) In Matlab, run compile_MEX.m;
+
+(4) Run Para_DPMM.m, follow the guidelines given in the program (an example):
+     1> Please enter dataset path:  data_matrix_1_S_Set.mat
+     2> Please enter number of processors:  16
+     3> Please set the value of alpha:  1
+     4> Please enter computing time limit (seconds):  20
+     
+
+Please contact Tiehang Duan (tiehangd@uci.edu) if you found any bug in the program or if anything is unclear in this discription.
+
+
+Note: The Para-DPMM project depend heavily on the open source Dirichlet Process Mixtures package(http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang. 
