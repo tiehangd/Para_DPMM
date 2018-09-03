@@ -6,15 +6,19 @@ The following two libraries is needed:
 
 We run the code with Matlab2015a and gcc/4.8.4 (gcc/4.6.X and gcc/4.7.X should also work).
 
-Usage:
+## Usage:
 
-(1) Install the packages mentioned above (for the Eigen library, you only need to place the unzipped files inside the "eigen" directory);
+### (1) 
+Install the packages mentioned above (for the Eigen library, you only need to place the unzipped files inside the "eigen" directory);
 
-(2) Start Matlab, enter the "main" directory in Matlab;
+### (2)
+Start Matlab, enter the "main" directory in Matlab;
 
-(3) In Matlab, run compile_MEX.m;
+### (3)
+In Matlab, run compile_MEX.m;
 
-(4) Run Para_DPMM.m, follow the guidelines given in the program (an example):
+### (4)
+Run Para_DPMM.m, follow the guidelines given in the program (an example):
      1> Please enter dataset path:  data_matrix_1_S_Set.mat
      2> Please enter number of processors:  16
      3> Please set the value of alpha:  1
