@@ -89,14 +89,14 @@ Steps:
 
 ### (3) Result
 
-      The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
+The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
 
 
 
 
 # 3. Comparison Methods
 
-      In the paper, we performed comparison with several current widely used single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
+In the paper, we performed comparison with several current widely used single cell clustering methods. Most of the methods are available in the form of R package, and in the "interface to comparison methods" folders, we provide interface programs (written in R) to use these datasets with the available R packages for comparison. Please install the related R pacakges before using the interface programs.
 
 
 
