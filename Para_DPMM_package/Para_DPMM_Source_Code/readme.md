@@ -25,7 +25,7 @@ Run Para_DPMM.m, follow the guidelines given in the program (an example):
      4> Please enter computing time limit (seconds):  20
      
 
-Please contact Tiehang Duan (tiehangd@uci.edu) if you found any bug in the program or if anything is unclear in this discription.
+Please contact Tiehang Duan (tiehang.duan@gmail.com) if you found any bug in the program or if anything is unclear in this discription.
 
 
 Note: The Para-DPMM project depend heavily on the open source Dirichlet Process Mixtures package(http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang. 
