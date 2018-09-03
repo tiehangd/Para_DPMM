@@ -3,17 +3,17 @@
 Source code and datasets of Para-DPMM model for single cell transcriptomic clustering to reproduce results in paper "Parallel Clustering of Single Cell Transcriptomic Data with Split-Merge Sampling on Dirichlet Process Mixtures", Author: Tiehang Duan; José P. Pinto; Xiaohui Xie;
 
 
-1. Data Preparation:
+#1. Data Preparation:
 
 In the datasets folder, we included the mat files that are used in the paper's experiment part. You can also prepare your own data following the procedures below.
 
-1.1 Download raw datasets from 10X genomics website (https://support.10xgenomics.com/single-cell-gene-expression/datasets) and store the files in the datasets folder;
+##1.1 Download raw datasets from 10X genomics website (https://support.10xgenomics.com/single-cell-gene-expression/datasets) and store the files in the datasets folder;
 
-1.2 Follow the comments in "data_preparation.m" to modify the file names based on the downloaded data files;
+##1.2 Follow the comments in "data_preparation.m" to modify the file names based on the downloaded data files;
 
-1.3 Follow the comments in "data_preparation.m" to set the number of cells (randomly selected) and top variable genes;
+##1.3 Follow the comments in "data_preparation.m" to set the number of cells (randomly selected) and top variable genes;
 
-1.4 Run "data_preparation.m";
+##1.4 Run "data_preparation.m";
 
 
 
